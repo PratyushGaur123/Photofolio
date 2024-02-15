@@ -1,0 +1,161 @@
+.album-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between image cards */
+    margin-left: 167px;
+    margin-right: 167px;
+    margin-top: 100px;
+}
+
+.album-div{
+    position: relative;
+    overflow: hidden;
+    width: 246px; /* Adjust the width of the image container */
+    height: 202px; /* Adjust the height of the image container */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* .album-div:hover{
+    border-color: blue;
+}
+.album-div span:hover{
+    background-color: blue;
+} */
+
+.album-name{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.img{
+    width: 14vw;
+    height: 42vh;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    display: block;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.img:hover {
+    transform: scale(1.1);
+  }
+
+  .album-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .form-heading {
+    text-align: center;
+    color: #333;
+  }
+  
+  .album-name-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .clear-btn,
+  .create-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .clear-btn:hover{
+
+    background-color: #e83f33; /* Hover color for the "Clear" button */
+  }
+
+  .clear-btn {
+    color: white;
+    background-color: #f44336; /* Hover color for the "Clear" button */
+  }
+  
+  .create-btn {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .create-btn:hover {
+    background-color: #45a049;
+  }
+
+  .main-container{
+    position: relative;
+    /* margin-left: 167px;
+    margin-right: 167px; */
+  }
+  
+  .album-heading {
+    float:left;
+    font-size: 2.2rem;
+    font-weight:bold;
+    color: #bcb7f5;
+    font-family: cursive;
+    margin-left: 179px;
+  }
+
+  .album-button {
+    position: absolute;
+    right: 299px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    /* transition: background-color 0.3s ease-in-out; */
+  }
+  .album-cancel-button {
+    position: absolute;
+    right: 299px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e91e13;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    /* transition: background-color 0.3s ease-in-out; */
+  }
+
+  .album-list-top{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+
+
